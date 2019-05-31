@@ -1,0 +1,1076 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cur",
+				"curr_positions"
+			],
+			[
+				"save",
+				"saved_piece"
+			],
+			[
+				"nextpeces",
+				"next_pieces"
+			],
+			[
+				"move",
+				"movePiece"
+			],
+			[
+				"le",
+				"length\t(Marathon.vue)"
+			],
+			[
+				"for",
+				"for-j"
+			],
+			[
+				"container",
+				"container-fluid\t(Board.vue)"
+			],
+			[
+				"brandsService",
+				"brandsCampaignsService"
+			],
+			[
+				"ca",
+				"campaign"
+			],
+			[
+				"bran",
+				"brand"
+			],
+			[
+				"br",
+				"brand"
+			],
+			[
+				"bra",
+				"brandsService"
+			],
+			[
+				"brand",
+				"brandName"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"getby",
+				"getByName\t(BrandsService.php)"
+			],
+			[
+				"is_nu",
+				"is_null"
+			],
+			[
+				"brandss",
+				"brandsservice"
+			],
+			[
+				"Brand",
+				"BrandsService\t(BrandsService.php)"
+			],
+			[
+				"needs",
+				"needUserAccount"
+			],
+			[
+				"p",
+				"php\t<?php … ?>"
+			],
+			[
+				"MAr",
+				"Martín"
+			],
+			[
+				"card-img",
+				"card-img-overlay \tBootstrap 4 Class"
+			],
+			[
+				"text",
+				"text-dark \tBootstrap 4 Class"
+			],
+			[
+				"round",
+				"rounded-0 \tBootstrap 4 Class"
+			],
+			[
+				"rounded-",
+				"rounded-bottom \tBootstrap 4 Class"
+			],
+			[
+				"border-",
+				"border-dark \tBootstrap 4 Class"
+			],
+			[
+				"margi",
+				"margin-top\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"InicioC",
+				"InicioComponent"
+			],
+			[
+				"flo",
+				"float-right\t(App.vue)"
+			],
+			[
+				"fixe",
+				"fixed-top \tBootstrap 4 Class"
+			],
+			[
+				"Navba",
+				"NavBarComponent"
+			],
+			[
+				"usuari",
+				"usuario"
+			],
+			[
+				"usuario",
+				"usuarios"
+			],
+			[
+				"activ",
+				"active_pills"
+			],
+			[
+				"respues",
+				"respuestaObj"
+			],
+			[
+				"pull",
+				"pull-10 \tBootstrap 4 Class"
+			],
+			[
+				"nav",
+				"nav-item \tBootstrap 4 Class"
+			],
+			[
+				"h3",
+				"h3\tTag"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"respuesta",
+				"respuestaJson"
+			],
+			[
+				"respue",
+				"respuestaObj"
+			],
+			[
+				"respu",
+				"respuestaObj"
+			],
+			[
+				"btns",
+				"btn-success\t(AgregadorDeTareasComponent.vue)"
+			],
+			[
+				"div",
+				"div\tTag"
+			],
+			[
+				"von",
+				"v-on\t@evt=\"callback\""
+			],
+			[
+				"compo",
+				"components"
+			],
+			[
+				"componen",
+				"componenteSeleccionado"
+			],
+			[
+				"act",
+				"actualizarContador"
+			],
+			[
+				"titul",
+				"tituloMayusculas"
+			],
+			[
+				"inputu",
+				"input-group-btn \tBootstrap 4 Class"
+			],
+			[
+				"bg",
+				"bg-info \tBootstrap 4 Class"
+			],
+			[
+				"click",
+				"clicks"
+			],
+			[
+				"yaml",
+				"yaml_parse"
+			],
+			[
+				"asertgre",
+				"assertGreaterThanOrEqual"
+			],
+			[
+				"assertarray",
+				"assertIsArray"
+			],
+			[
+				"Busca",
+				"Buscador"
+			],
+			[
+				"nombre",
+				"nombrePropiedad\t(Buscador.php)"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"htmlco",
+				"html_content\tstring"
+			],
+			[
+				"aut",
+				"autofocus\tAttr"
+			],
+			[
+				"respon",
+				"response"
+			],
+			[
+				"response_",
+				"response_ok"
+			],
+			[
+				"val",
+				"valor"
+			],
+			[
+				"rsul",
+				"resultadoPropiedades"
+			],
+			[
+				"carac",
+				"caracteristicas_de_persona"
+			],
+			[
+				"delta",
+				"delta_1"
+			],
+			[
+				"sigm",
+				"sigmas"
+			],
+			[
+				"sigmo",
+				"sigmoidGradient\t(ex4.m)"
+			],
+			[
+				"L",
+				"L_in"
+			],
+			[
+				"Lo",
+				"L_out"
+			],
+			[
+				"regulariza",
+				"regularizacion"
+			],
+			[
+				"Theta",
+				"Theta2"
+			],
+			[
+				"The",
+				"Theta1"
+			],
+			[
+				"theta",
+				"Theta1"
+			],
+			[
+				"X",
+				"X_t\t(ex3.m)"
+			],
+			[
+				"grad",
+				"grad_one"
+			],
+			[
+				"currth",
+				"curr_theta_1"
+			],
+			[
+				"the",
+				"theta"
+			],
+			[
+				"th",
+				"theta"
+			],
+			[
+				"fpri",
+				"fprintf\tfprintf …"
+			],
+			[
+				"isd",
+				"isdigit\tfunction"
+			],
+			[
+				"mid",
+				"miDiccionario\tstatement"
+			],
+			[
+				"pri",
+				"print\t(listas.py)"
+			],
+			[
+				"co",
+				"count\tfunction"
+			],
+			[
+				"tup",
+				"miTupla"
+			],
+			[
+				"mi",
+				"miLista\tstatement"
+			],
+			[
+				"ka",
+				"Karla"
+			],
+			[
+				"extend",
+				"extend\tfunction"
+			],
+			[
+				"mil",
+				"miLista"
+			],
+			[
+				"pas",
+				"passengers"
+			],
+			[
+				"bus",
+				"bus_stops"
+			],
+			[
+				"dii",
+				"digital_root"
+			],
+			[
+				"digita",
+				"digital_root"
+			],
+			[
+				"new",
+				"newstr"
+			],
+			[
+				"vow",
+				"vowels"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"random",
+				"Random:Full Name"
+			],
+			[
+				"unique",
+				"Permute Lines: Unique"
+			],
+			[
+				"randomco",
+				"Random:Country"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"prettyfyprefe",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"HTMLPrettify",
+				"HTMLPrettify: Set Plugin Options"
+			],
+			[
+				"installpa",
+				"Package Control: Install Package"
+			],
+			[
+				"newfolder",
+				"File: New Folder Relative to Current View"
+			],
+			[
+				"rename",
+				"Rename File"
+			],
+			[
+				"randomin",
+				"Random:Int"
+			],
+			[
+				"randomlas",
+				"Random:Last Name"
+			],
+			[
+				"randomfirs",
+				"Random:First Name"
+			],
+			[
+				"randoin",
+				"Random:Int"
+			],
+			[
+				"randomcontr",
+				"Random:Country"
+			],
+			[
+				"random int",
+				"Random:Int"
+			],
+			[
+				"countr",
+				"Random:Country"
+			],
+			[
+				"randomint",
+				"Random:Int"
+			],
+			[
+				"randomem",
+				"Random:E-mail"
+			],
+			[
+				"randomna",
+				"Random:Last Name"
+			],
+			[
+				"randomnam",
+				"Random:Last Name"
+			],
+			[
+				"installpac",
+				"Package Control: Install Package"
+			],
+			[
+				"removepac",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"random name",
+				"Random:First Name"
+			],
+			[
+				"repl",
+				"Set Syntax: Io Repl"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 199.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/world_war_game"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/vuetris/src/components/CountDownModal.vue",
+		"/C/xampp/htdocs/vuetris/src/components/NextPiece.vue",
+		"/C/xampp/htdocs/vuetris/src/App.vue",
+		"/C/xampp/htdocs/vuetris/src/components/games/Marathon.vue",
+		"/C/xampp/htdocs/vuetris/src/components/Board.vue",
+		"/C/xampp/htdocs/vuetris/src/components/Game.vue",
+		"/C/xampp/htdocs/vuetris/index.html",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Resources/config/services.yml",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Entity/ICampaignStatus.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/BusinessService/CampaignActionsService.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Controller/Campaigns/AcceptController.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Resources/config/controllers.yml",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Resources/config/routing.yml",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/HttpKernel.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/vendor/symfony/symfony/src/Symfony/Component/HttpFoundation/JsonResponse.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Entity/ICampaignMessageSentState.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/composer.lock",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/PersistenceService/BrandsCampaignsService.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Repository/BrandsCampaignsRepository.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Entity/Brands.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/PersistenceService/BrandsService.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Controller/Campaigns/AcceptCampaignController.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Repository/BrandsRepository.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Entity/BrandsCampaigns.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/PersistenceService/IPersistenceService.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Entity/Campaigns.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/PersistenceService/CampaignService.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Entity/CampaignsStatus.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Entity/CampaignsMessages.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Repository/CampaignsMessagesRepository.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/PersistenceService/CampaignsMessagesService.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Controller/AbstractController.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Controller/Campaigns/RefuseController.php",
+		"/C/xampp/htdocs/internet_republica/backendsocialpubli/src/BackendBundle/Controller/Campaigns/GetByIdController.php",
+		"/C/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/xampp/htdocs/internet_republica/vagrantsocialpubli/Vagrantfile",
+		"/C/xampp/htdocs/internet_republica/socialpubli/autol/newauth.php",
+		"/C/xampp/htdocs/portfolio_basic/portfolio_vue/src/components/About.vue",
+		"/C/xampp/htdocs/portfolio_basic/portfolio_vue/src/components/Career.vue",
+		"/C/xampp/htdocs/portfolio_basic/portfolio_vue/src/components/NavBar.vue",
+		"/C/xampp/htdocs/portfolio_basic/portfolio_vue/src/components/LogoComponent.vue",
+		"/C/xampp/htdocs/portfolio_basic/portfolio_vue/src/App.vue",
+		"/C/xampp/htdocs/portfolio_basic/portfolio_vue/src/rutas.js",
+		"/C/xampp/htdocs/portfolio_basic/portfolio_vue/src/main.js",
+		"/C/xampp/htdocs/portfolio_basic/portfolio_vue/index.html",
+		"/C/xampp/htdocs/portfolio_basic/portfolio_vue/src/assets/css/timeline.css",
+		"/C/xampp/htdocs/portfolio_basic/portfolio_vue/src/components/Contact.vue",
+		"/C/xampp/htdocs/portfolio_basic/portfolio_vue/src/components/Tech.vue",
+		"/C/xampp/htdocs/vue_js/12-enrutamiento/enrutamiento/src/components/InfoUsuario.vue",
+		"/C/xampp/htdocs/vue_js/12-enrutamiento/enrutamiento/src/components/Usuarios.vue",
+		"/C/xampp/htdocs/vue_js/12-enrutamiento/enrutamiento/src/components/Encabezado.vue",
+		"/C/xampp/htdocs/vue_js/12-enrutamiento/enrutamiento/src/App.vue",
+		"/C/xampp/htdocs/vue_js/12-enrutamiento/enrutamiento/src/main.js",
+		"/C/xampp/htdocs/vue_js/12-enrutamiento/enrutamiento/src/rutas.js",
+		"/C/xampp/htdocs/vue_js/13-produccion/index.html",
+		"/C/Users/hecma/Documents/Curso de Vue JS 2 en Español/14. BONUS/1. No dejes de aprender.html",
+		"/C/xampp/htdocs/vue_js/12-enrutamiento/enrutamiento/index.html",
+		"/C/xampp/htdocs/vue_js/12-enrutamiento/enrutamiento/src/components/Inicio.vue",
+		"/C/xampp/htdocs/vue_js/11-llamadas_http/checklist_with_vuejs/src/ListaTareasComponent.vue",
+		"/C/xampp/htdocs/vue_js/11-llamadas_http/checklist_with_vuejs/src/NuevaTareaComponent.vue",
+		"/C/xampp/htdocs/vue_js/11-llamadas_http/checklist_with_vuejs/src/main.js",
+		"/C/xampp/htdocs/vue_js/11-llamadas_http/checklist_with_vuejs/src/App.vue",
+		"/C/xampp/htdocs/vue_js/11-llamadas_http/tareas_http/src/ListaDeTareasComponent.vue",
+		"/C/xampp/htdocs/vue_js/11-llamadas_http/tareas_http/src/AgregadorDeTareasComponent.vue",
+		"/C/xampp/htdocs/vue_js/11-llamadas_http/tareas_http/src/App.vue",
+		"/C/xampp/htdocs/vue_js/11-llamadas_http/tareas_http/src/main.js",
+		"/C/xampp/htdocs/vue_js/11-llamadas_http/tareas_http/src/TituloComponent.vue",
+		"/C/xampp/htdocs/vue_js/06 - vue cli/lista_tareas/src/NuevaTareaComponent.vue",
+		"/C/xampp/htdocs/vue_js/06 - vue cli/lista_tareas/src/App.vue",
+		"/C/xampp/htdocs/vue_js/06 - vue cli/lista_tareas/src/TituloComponent.vue",
+		"/C/xampp/htdocs/vue_js/11-llamadas_http/tareas_http/index.html",
+		"/C/xampp/htdocs/vue_js/10-filtros/filtros/src/App.vue",
+		"/C/xampp/htdocs/vue_js/10-filtros/filtros/src/main.js",
+		"/C/xampp/htdocs/vue_js/10-filtros/filtros/index.html",
+		"/C/xampp/htdocs/vue_js/09-forms/forms/index.html",
+		"/C/xampp/htdocs/vue_js/09-forms/forms/src/main.js",
+		"/C/xampp/htdocs/vue_js/09-forms/forms/src/App.vue",
+		"/C/Users/hecma/AppData/Local/Temp/Temp1_8.1 App.vue.zip.zip/App.vue",
+		"/C/xampp/htdocs/vue_js/08-directivas_personalizadas/pruebas_directivas/src/main.js",
+		"/C/xampp/htdocs/vue_js/08-directivas_personalizadas/pruebas_directivas/src/App.vue",
+		"/C/xampp/htdocs/vue_js/08-directivas_personalizadas/pruebas_directivas/index.html",
+		"/C/xampp/htdocs/vue_js/07-slots/pruebas_slots/src/cambiarClave.vue",
+		"/C/xampp/htdocs/vue_js/07-slots/pruebas_slots/src/iniciarSesion.vue",
+		"/C/xampp/htdocs/vue_js/07-slots/pruebas_slots/src/mostrarFormulario.vue",
+		"/C/xampp/htdocs/vue_js/07-slots/pruebas_slots/src/App.vue",
+		"/C/xampp/htdocs/vue_js/07-slots/pruebas_slots/src/main.js",
+		"/C/xampp/htdocs/vue_js/07-slots/pruebas_slots/index.html",
+		"/C/xampp/htdocs/vue_js/06 - vue cli/lista_tareas/package.json",
+		"/C/xampp/htdocs/vue_js/06 - vue cli/lista_tareas/package-lock.json",
+		"/C/xampp/htdocs/vue_js/06 - vue cli/lista_tareas/src/ListaTareasComponent.vue",
+		"/C/xampp/htdocs/vue_js/06 - vue cli/lista_tareas/src/main.js",
+		"/C/xampp/htdocs/vue_js/06 - vue cli/lista_tareas/index.html",
+		"/C/xampp/htdocs/vue_js/05 - componentes/vue.js",
+		"/C/xampp/htdocs/vue_js/05 - componentes/index.html",
+		"/C/Users/hecma/OneDrive/Sublime Text Build 3176 x64/Data/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/C/Users/hecma/OneDrive/Sublime Text Build 3176 x64/Data/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/C/xampp/htdocs/vue_js/notas.txt",
+		"/C/xampp/htdocs/package-lock.json",
+		"/C/xampp/htdocs/applications.html",
+		"/C/xampp/htdocs/vue_js/04 - lista de tareas/vue.js",
+		"/C/xampp/htdocs/vue_js/04 - lista de tareas/index.html",
+		"/C/xampp/htdocs/vue_js/03 - eventos/vue.js",
+		"/C/xampp/htdocs/vue_js/03 - eventos/index.html",
+		"/C/xampp/htdocs/bad-puns-tracker-client/src/main.js",
+		"/C/xampp/htdocs/bad-puns-tracker-server/src/Repository/MovieRepository.php",
+		"/C/xampp/htdocs/bad-puns-tracker-server/src/Controller/ApiController.php",
+		"/C/xampp/htdocs/bad-puns-tracker-server/src/Controller/MovieController.php",
+		"/C/xampp/htdocs/bad-puns-tracker-server/src/Entity/Movie.php",
+		"/C/xampp/htdocs/bad-puns-tracker-server/.env",
+		"/C/xampp/htdocs/symfoticket/public/index.php",
+		"/C/xampp/htdocs/symfoticket/config/routes.yaml",
+		"/C/xampp/htdocs/symfoticket/src/Controller/LuckyController.php",
+		"/C/xampp/htdocs/symfoticket/assets/js/app.js",
+		"/C/xampp/htdocs/symfoticket/node_modules/webpack-dev-server/client/webpack.config.js",
+		"/C/xampp/htdocs/symfoticket/assets/css/global.scss",
+		"/C/xampp/htdocs/symfoticket/src/Controller/HomeController.php",
+		"/C/xampp/htdocs/symfoticket/.env",
+		"/C/xampp/htdocs/symfoticket/src/Entity/Ticket.php",
+		"/C/xampp/htdocs/symfoticket/src/Repository/TicketRepository.php",
+		"/C/xampp/htdocs/symfoticket/templates/home/index.html.twig",
+		"/C/xampp/htdocs/ticket_igniter/application/views/global/view_footer.php",
+		"/C/xampp/htdocs/ticket_igniter/application/views/login/view_login.php",
+		"/C/xampp/htdocs/ticket_igniter/index.php",
+		"/C/xampp/htdocs/ticket_igniter/application/config/routes.php",
+		"/C/xampp/htdocs/ticket_igniter/application/controllers/Login.php",
+		"/C/xampp/htdocs/ticket_igniter/application/views/global/view_header.php",
+		"/C/xampp/htdocs/ticket_igniter/node_modules/popper.js/dist/popper.min.js",
+		"/C/xampp/htdocs/ticket_igniter/node_modules/jquery/dist/jquery.min.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 351.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "wwg.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Boar",
+				"src\\components\\Board.vue"
+			],
+			[
+				"httpkernel",
+				"vendor\\symfony\\symfony\\src\\Symfony\\Component\\HttpKernel\\HttpKernel.php"
+			],
+			[
+				"BackendBundle\\BusinessService\\CampaignActionsService",
+				"src\\BackendBundle\\BusinessService\\CampaignActionsService.php"
+			],
+			[
+				"BrandsRepository",
+				"src\\BackendBundle\\Repository\\BrandsRepository.php"
+			],
+			[
+				"brandscampagnsservice",
+				"src\\BackendBundle\\PersistenceService\\BrandsCampaignsService.php"
+			],
+			[
+				"brandcampaignsser",
+				"src\\BackendBundle\\PersistenceService\\BrandsCampaignsService.php"
+			],
+			[
+				"BackendBundle\\Repository\\BrandsRepository",
+				"src\\BackendBundle\\Repository\\BrandsRepository.php"
+			],
+			[
+				"BackendBundle\\Entity\\Brands",
+				"src\\BackendBundle\\Entity\\Brands.php"
+			],
+			[
+				"BackendBundle\\PersistenceService\\BrandsService",
+				"src\\BackendBundle\\PersistenceService\\BrandsService.php"
+			],
+			[
+				"BackendBundle\\Entity\\Campaigns",
+				"src\\BackendBundle\\Entity\\Campaigns.php"
+			],
+			[
+				"BackendBundle\\PersistenceService\\CampaignService",
+				"src\\BackendBundle\\PersistenceService\\CampaignService.php"
+			],
+			[
+				"timeline.css",
+				"portfolio_vue\\src\\assets\\css\\timeline.css"
+			],
+			[
+				"lockjson",
+				"06 - vue cli\\lista_tareas\\package-lock.json"
+			],
+			[
+				"main",
+				"bad-puns-tracker-client\\src\\main.js"
+			],
+			[
+				"moviecontroller",
+				"bad-puns-tracker-server\\src\\Controller\\MovieController.php"
+			],
+			[
+				"apicontroller",
+				"bad-puns-tracker-server\\src\\Controller\\ApiController.php"
+			],
+			[
+				"movierepost",
+				"bad-puns-tracker-server\\src\\Repository\\MovieRepository.php"
+			],
+			[
+				"webpack.config",
+				"node_modules\\webpack-dev-server\\client\\webpack.config.js"
+			],
+			[
+				"ticket.php",
+				"src\\Entity\\Ticket.php"
+			],
+			[
+				"popperjs",
+				"node_modules\\popper.js\\dist\\popper.min.js"
+			],
+			[
+				"\\jquery.js",
+				"node_modules\\jquery\\dist\\jquery.min.js"
+			],
+			[
+				"bootstrap.js",
+				"node_modules\\bootstrap\\dist\\js\\bootstrap.js"
+			],
+			[
+				"jquery.js",
+				"node_modules\\jquery\\src\\jquery.js"
+			],
+			[
+				"poppe",
+				"node_modules\\popper.js\\dist\\popper.js"
+			],
+			[
+				"bootstrapcss",
+				"node_modules\\bootstrap\\dist\\css\\bootstrap.css"
+			],
+			[
+				"viewhe",
+				"application\\views\\global\\view_header.php"
+			],
+			[
+				"welcome_message",
+				"application\\views\\welcome_message.php"
+			],
+			[
+				"config/re",
+				"application\\config\\routes.php"
+			],
+			[
+				"readme",
+				"readme.rst"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"BBDD",
+				"models\\BBDD.php"
+			],
+			[
+				"bootstrap.css",
+				"node_modules\\bootstrap\\dist\\css\\bootstrap.css"
+			],
+			[
+				"bootstrap.min.c",
+				"node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"
+			],
+			[
+				"jquery.min",
+				"node_modules\\jquery\\dist\\jquery.min.js"
+			],
+			[
+				"jquer",
+				"node_modules\\jquery\\dist\\jquery.js"
+			],
+			[
+				"bootstrapminjs",
+				"node_modules\\bootstrap\\dist\\js\\bootstrap.min.js"
+			],
+			[
+				"CREATE",
+				"walmeric\\walmeric_personas_create_db.sql"
+			],
+			[
+				"create",
+				"walmeric\\walmeric_personas_create_data.sql"
+			],
+			[
+				"emailfe",
+				"ex6\\emailFeatures.m"
+			],
+			[
+				"processe",
+				"ex6\\processEmail.m"
+			],
+			[
+				"ex6s",
+				"ex6\\ex6_spam.m"
+			],
+			[
+				"svmTrain",
+				"ex6\\svmTrain.m"
+			],
+			[
+				"svmpre",
+				"ex6\\svmPredict.m"
+			],
+			[
+				"dataset",
+				"ex6\\dataset3Params.m"
+			],
+			[
+				"gausa",
+				"ex6\\gaussianKernel.m"
+			],
+			[
+				"ex6",
+				"ex6\\ex6.m"
+			],
+			[
+				"validationcu",
+				"ex5\\validationCurve.m"
+			],
+			[
+				"feat",
+				"ex5\\featureNormalize.m"
+			],
+			[
+				"feature",
+				"ex1\\featureNormalize.m"
+			],
+			[
+				"poly",
+				"ex5\\polyFeatures.m"
+			],
+			[
+				"lienarreg",
+				"ex5\\linearRegCostFunction.m"
+			],
+			[
+				"ex5",
+				"ex5\\ex5.m"
+			],
+			[
+				"randini",
+				"ex4\\randInitializeWeights.m"
+			],
+			[
+				"sigmoidgr",
+				"ex4\\sigmoidGradient.m"
+			],
+			[
+				"ex3",
+				"ex3\\ex3.m"
+			],
+			[
+				"costf",
+				"ex2\\costFunctionReg.m"
+			],
+			[
+				"map",
+				"ex2\\mapFeature.m"
+			],
+			[
+				"ex2reg",
+				"ex2\\ex2_reg.m"
+			],
+			[
+				"ex2m",
+				"ex2\\ex2.m"
+			],
+			[
+				"predi",
+				"ex2\\predict.m"
+			],
+			[
+				"gra",
+				"gradientDescent.m"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 392.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
