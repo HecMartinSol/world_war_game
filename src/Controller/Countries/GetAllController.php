@@ -75,8 +75,8 @@ class GetAllController extends AbstractController
                          !$neighboursRepo->areNeighbours($country2->getId(), $country->getId()) 
                      ){
                         $neighbours = new Neighbours();
-                        $neighbours->setIdCountry1($country->getId());
-                        $neighbours->setIdCountry2($country2->getId());
+                        $neighbours->setCountry1($country);
+                        $neighbours->setCountry2($country2);
 
                         $entityManager->persist($neighbours);
                         $entityManager->flush();

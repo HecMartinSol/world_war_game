@@ -564,7 +564,12 @@
 	},
 	"expanded_folders":
 	[
-		"/C/xampp/htdocs/world_war_game"
+		"/var/www/hms/world_war_game",
+		"/var/www/hms/world_war_game/src",
+		"/var/www/hms/world_war_game/src/BusinessService",
+		"/var/www/hms/world_war_game/src/Controller",
+		"/var/www/hms/world_war_game/src/Controller/Countries",
+		"/var/www/hms/world_war_game/src/Entity"
 	],
 	"file_history":
 	[
@@ -706,6 +711,7 @@
 		"height": 116.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -713,6 +719,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"DatabaseFeederCommand"
 		],
 		"highlight": true,
 		"in_selection": false,

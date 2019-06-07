@@ -19,13 +19,13 @@ class NeighboursRepository extends ServiceEntityRepository
         parent::__construct($registry, Neighbours::class);
     }
 
-    public function areNeighbours($id_country_1, $id_country_2)
+    public function areNeighbours($country_1, $country_2)
     {
         return  !is_null($this->createQueryBuilder('neighbours')
-                    ->andWhere('neighbours.id_country_1 = :id_country_1')
-                    ->andWhere('neighbours.id_country_2 = :id_country_2')
-                    ->setParameter('id_country_1', $id_country_1)
-                    ->setParameter('id_country_2', $id_country_2)
+                    ->andWhere('neighbours.country_1 = :country_1')
+                    ->andWhere('neighbours.country_2 = :country_2')
+                    ->setParameter('country_1', $country_1)
+                    ->setParameter('country_2', $country_2)
                     ->getQuery()
                     ->getOneOrNullResult());
         ;

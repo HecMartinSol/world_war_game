@@ -17,40 +17,42 @@ class Neighbours
     private $id;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Countries")
+     * @ORM\JoinColumn(nullable=false)
      */
-    private $id_country_1;
+    private $country_1;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Countries")
+     * @ORM\JoinColumn(nullable=false)
      */
-    private $id_country_2;
+    private $country_2;
 
     public function getId(): ?int
     {
         return $this->id;
     }
 
-    public function getIdCountry1(): ?int
+    public function getCountry1(): ?Countries
     {
-        return $this->id_country_1;
+        return $this->country_1;
     }
 
-    public function setIdCountry1(int $id_country_1): self
+    public function setCountry1(?Countries $country_1): self
     {
-        $this->id_country_1 = $id_country_1;
+        $this->country_1 = $country_1;
 
         return $this;
     }
 
-    public function getIdCountry2(): ?int
+    public function getCountry2(): ?Countries
     {
-        return $this->id_country_2;
+        return $this->country_2;
     }
 
-    public function setIdCountry2(int $id_country_2): self
+    public function setCountry2(?Countries $country_2): self
     {
-        $this->id_country_2 = $id_country_2;
+        $this->country_2 = $country_2;
 
         return $this;
     }
