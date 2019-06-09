@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"idoc",
+				"id_country_1"
+			],
+			[
+				"nei",
+				"Neighbours"
+			],
+			[
+				"ne",
+				"neighboursRepo"
+			],
+			[
+				"countries",
+				"countriesRepo"
+			],
+			[
+				"Border",
+				"border_code"
+			],
+			[
+				"findb",
+				"findByByName\t(RegionsRepository.php)"
+			],
+			[
+				"Countri",
+				"CountriesRepository"
+			],
+			[
 				"cur",
 				"curr_positions"
 			],
@@ -391,6 +419,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/Controller/Countries/GetAllController.php",
+			"settings":
+			{
+				"buffer_size": 3530,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -564,15 +601,32 @@
 	},
 	"expanded_folders":
 	[
-		"/var/www/hms/world_war_game",
-		"/var/www/hms/world_war_game/src",
-		"/var/www/hms/world_war_game/src/BusinessService",
-		"/var/www/hms/world_war_game/src/Controller",
-		"/var/www/hms/world_war_game/src/Controller/Countries",
-		"/var/www/hms/world_war_game/src/Entity"
+		"/C/xampp/htdocs/world_war_game",
+		"/C/xampp/htdocs/world_war_game/src",
+		"/C/xampp/htdocs/world_war_game/src/BusinessService",
+		"/C/xampp/htdocs/world_war_game/src/Command",
+		"/C/xampp/htdocs/world_war_game/src/Controller",
+		"/C/xampp/htdocs/world_war_game/src/Controller/Countries",
+		"/C/xampp/htdocs/world_war_game/src/Entity",
+		"/C/xampp/htdocs/world_war_game/src/Repository"
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/world_war_game/src/BusinessService/GuzzleClient.php",
+		"/C/xampp/htdocs/world_war_game/vendor/symfony/framework-bundle/Controller/AbstractController.php",
+		"/C/xampp/htdocs/world_war_game/src/Command/DatabaseFeederCommand.php",
+		"/C/xampp/htdocs/world_war_game/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php",
+		"/C/xampp/htdocs/world_war_game/src/Repository/NeighboursRepository.php",
+		"/C/xampp/htdocs/world_war_game/.env",
+		"/C/xampp/htdocs/world_war_game/src/Controller/Countries/GetAllController.php",
+		"/C/xampp/htdocs/world_war_game/src/Repository/CountriesRepository.php",
+		"/C/xampp/htdocs/world_war_game/src/Repository/RegionsRepository.php",
+		"/C/xampp/htdocs/world_war_game/vendor/doctrine/doctrine-bundle/Command/DoctrineCommand.php",
+		"/C/xampp/htdocs/world_war_game/vendor/symfony/dependency-injection/ServiceSubscriberInterface.php",
+		"/C/xampp/htdocs/world_war_game/vendor/symfony/service-contracts/ServiceSubscriberInterface.php",
+		"/C/xampp/htdocs/world_war_game/vendor/symfony/console/Command/Command.php",
+		"/C/xampp/htdocs/world_war_game/vendor/symfony/framework-bundle/Controller/ControllerTrait.php",
+		"/C/xampp/htdocs/world_war_game/src/Repository/CountryRepository.php",
 		"/C/xampp/htdocs/vuetris/src/components/CountDownModal.vue",
 		"/C/xampp/htdocs/vuetris/src/components/NextPiece.vue",
 		"/C/xampp/htdocs/vuetris/src/App.vue",
@@ -685,33 +739,17 @@
 		"/C/xampp/htdocs/symfoticket/public/index.php",
 		"/C/xampp/htdocs/symfoticket/config/routes.yaml",
 		"/C/xampp/htdocs/symfoticket/src/Controller/LuckyController.php",
-		"/C/xampp/htdocs/symfoticket/assets/js/app.js",
-		"/C/xampp/htdocs/symfoticket/node_modules/webpack-dev-server/client/webpack.config.js",
-		"/C/xampp/htdocs/symfoticket/assets/css/global.scss",
-		"/C/xampp/htdocs/symfoticket/src/Controller/HomeController.php",
-		"/C/xampp/htdocs/symfoticket/.env",
-		"/C/xampp/htdocs/symfoticket/src/Entity/Ticket.php",
-		"/C/xampp/htdocs/symfoticket/src/Repository/TicketRepository.php",
-		"/C/xampp/htdocs/symfoticket/templates/home/index.html.twig",
-		"/C/xampp/htdocs/ticket_igniter/application/views/global/view_footer.php",
-		"/C/xampp/htdocs/ticket_igniter/application/views/login/view_login.php",
-		"/C/xampp/htdocs/ticket_igniter/index.php",
-		"/C/xampp/htdocs/ticket_igniter/application/config/routes.php",
-		"/C/xampp/htdocs/ticket_igniter/application/controllers/Login.php",
-		"/C/xampp/htdocs/ticket_igniter/application/views/global/view_header.php",
-		"/C/xampp/htdocs/ticket_igniter/node_modules/popper.js/dist/popper.min.js",
-		"/C/xampp/htdocs/ticket_igniter/node_modules/jquery/dist/jquery.min.js"
+		"/C/xampp/htdocs/symfoticket/assets/js/app.js"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
 		"height": 116.0,
 		"where_history":
 		[
-			""
 		]
 	},
 	"find_state":
@@ -719,7 +757,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"DatabaseFeederCommand"
+			"setCoun",
+			"function set",
+			"country",
+			"is_null",
+			"1",
+			"n",
+			"empty",
+			"name",
+			"findByByName",
+			"$c[\"latlng",
+			"alpha3code",
+			"alpha2code",
+			"alpha3code",
+			"alpha",
+			"$countrie",
+			"region",
+			"region_name",
+			"regions",
+			"name",
+			"country",
+			"id",
+			"CountriesRepository",
+			"r",
+			"val",
+			"value",
+			"$xxxxxxxxx",
+			"product",
+			"function set",
+			"entityManager",
+			"Product",
+			"product",
+			"Product",
+			"product"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -737,8 +807,205 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/Controller/Countries/GetAllController.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								945,
+								945
+							]
+						],
+						"settings":
+						{
+							"SL.32.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										3526,
+										3527
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										440,
+										441
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 78.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],

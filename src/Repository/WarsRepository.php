@@ -19,6 +19,14 @@ class WarsRepository extends ServiceEntityRepository
         parent::__construct($registry, Wars::class);
     }
 
+    public function save(WarsRepository $region)
+    {
+        $em = $this->getEntityManager();
+        $em->persist($region);
+        $em->flush();
+    }
+
+
     // /**
     //  * @return Wars[] Returns an array of Wars objects
     //  */

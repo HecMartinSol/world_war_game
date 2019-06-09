@@ -19,6 +19,13 @@ class CountriesRepository extends ServiceEntityRepository
         parent::__construct($registry, Countries::class);
     }
 
+    public function save(Countries $region)
+    {
+        $em = $this->getEntityManager();
+        $em->persist($region);
+        $em->flush();
+    }
+
     public function findByName($name)
     {
         return $this->createQueryBuilder('countries')
