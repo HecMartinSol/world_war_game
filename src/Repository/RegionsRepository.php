@@ -19,10 +19,10 @@ class RegionsRepository extends ServiceEntityRepository
         parent::__construct($registry, Regions::class);
     }
 
-    public function save(Regions $region)
+    public function save(Regions $entity)
     {
         $em = $this->getEntityManager();
-        $em->persist($region);
+        $em->persist($entity);
         $em->flush();
     }
 

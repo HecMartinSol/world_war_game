@@ -19,10 +19,10 @@ class WarsBattlesRepository extends ServiceEntityRepository
         parent::__construct($registry, WarsBattles::class);
     }
 
-    public function save(WarsBattles $region)
+    public function save(WarsBattles $entity)
     {
         $em = $this->getEntityManager();
-        $em->persist($region);
+        $em->persist($entity);
         $em->flush();
     }
 

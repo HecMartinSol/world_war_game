@@ -19,10 +19,10 @@ class NeighboursRepository extends ServiceEntityRepository
         parent::__construct($registry, Neighbours::class);
     }
 
-    public function save(Neighbours $region)
+    public function save(Neighbours $entity)
     {
         $em = $this->getEntityManager();
-        $em->persist($region);
+        $em->persist($entity);
         $em->flush();
     }
 

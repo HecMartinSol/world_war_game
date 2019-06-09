@@ -19,13 +19,26 @@ class WarsRepository extends ServiceEntityRepository
         parent::__construct($registry, Wars::class);
     }
 
-    public function save(WarsRepository $region)
+    public function save(Wars $entity)
     {
         $em = $this->getEntityManager();
-        $em->persist($region);
+        $em->persist($entity);
         $em->flush();
     }
 
+
+    // /**
+    //  * @return Wars[] Returns an array of Wars objects
+    //  */
+    public function getActiveWars()
+    {
+        return $this->createQueryBuilder('wars')
+            ->andWhere('wars.end_date is null')
+            ->orderBy('wars.id', 'ASC')
+            ->getQuery()
+            ->getResult()
+        ;
+    }
 
     // /**
     //  * @return Wars[] Returns an array of Wars objects

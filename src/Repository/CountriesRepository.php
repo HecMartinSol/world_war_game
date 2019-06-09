@@ -19,10 +19,10 @@ class CountriesRepository extends ServiceEntityRepository
         parent::__construct($registry, Countries::class);
     }
 
-    public function save(Countries $region)
+    public function save(Countries $entity)
     {
         $em = $this->getEntityManager();
-        $em->persist($region);
+        $em->persist($entity);
         $em->flush();
     }
 
@@ -42,6 +42,15 @@ class CountriesRepository extends ServiceEntityRepository
             ->setParameter('code', $code)
             ->getQuery()
             ->getOneOrNullResult()
+        ;
+    }
+
+    public function getAllCountries()
+    {
+        return $this->createQueryBuilder('w')
+            ->orderBy('w.id', 'ASC')
+            ->getQuery()
+            ->getResult()
         ;
     }
 
