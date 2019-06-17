@@ -3,6 +3,7 @@
 namespace App\Repository;
 
 use App\Entity\CountriesWars;
+use App\Entity\Wars;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Symfony\Bridge\Doctrine\RegistryInterface;
 
@@ -24,6 +25,26 @@ class CountriesWarsRepository extends ServiceEntityRepository
         $em = $this->getEntityManager();
         $em->persist($entity);
         $em->flush();
+    }
+
+    public function getRandomCountryInWar(Wars $war)
+    {
+        $countries_in_war = $this->findBy(["war"=> $war]);
+
+        $rand_i = rand(0, sizeof($countries_in_war)-1);
+
+        return $countries_in_war[$rand_i];
+
+    }
+
+    public function getCountriesConqueredBy($conquerer)
+    {
+        return $this->createQueryBuilder('c')
+            ->andWhere('c.conquerer = :conquerer')
+            ->setParameter('conquerer', $conquerer)
+            ->getQuery()
+            ->getResult()
+        ;
     }
 
     // /**

@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"Wars",
+				"WarsRepository"
+			],
+			[
+				"getEnt",
+				"getEntityManager\t(EntityRepository.php)"
+			],
+			[
+				"neighboursReposi",
+				"neighboursRepository"
+			],
+			[
+				"arr",
+				"resArr"
+			],
+			[
+				"Ent",
+				"EntityManagerInterface"
+			],
+			[
+				"Gu",
+				"GuzzleClient"
+			],
+			[
 				"idoc",
 				"id_country_1"
 			],
@@ -420,10 +444,31 @@
 	"buffers":
 	[
 		{
-			"file": "src/Controller/Countries/GetAllController.php",
+			"file": "src/Command/WarsMakeBattleCommand.php",
 			"settings":
 			{
-				"buffer_size": 3530,
+				"buffer_size": 1801,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\nnamespace App\\Repository;\n\nuse App\\Entity\\CountriesWars;\nuse Doctrine\\Bundle\\DoctrineBundle\\Repository\\ServiceEntityRepository;\nuse Symfony\\Bridge\\Doctrine\\RegistryInterface;\n\n/**\n * @method CountriesWars|null find($id, $lockMode = null, $lockVersion = null)\n * @method CountriesWars|null findOneBy(array $criteria, array $orderBy = null)\n * @method CountriesWars[]    findAll()\n * @method CountriesWars[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)\n */\nclass CountriesWarsRepository extends ServiceEntityRepository\n{\n    public function __construct(RegistryInterface $registry)\n    {\n        parent::__construct($registry, CountriesWars::class);\n    }\n\n    public function save(CountriesWars $entity)\n    {\n        $em = $this->getEntityManager();\n        $em->persist($entity);\n        $em->flush();\n    }\n\n    public function getRandomCountryOfWar(int $warId)\n    {\n        return $this->createQueryBuilder('country_war')\n            ->andWhere('country_war.conquerer_id = :val')\n            ->setParameter('val', $value)\n            ->orderBy('RAND')\n            ->getQuery()\n            ->getOneOrNullResult()\n\n    }\n\n    // /**\n    //  * @return CountriesWars[] Returns an array of CountriesWars objects\n    //  */\n    /*\n    public function findByExampleField($value)\n    {\n        return $this->createQueryBuilder('c')\n            ->andWhere('c.exampleField = :val')\n            ->setParameter('val', $value)\n            ->orderBy('c.id', 'ASC')\n            ->setMaxResults(10)\n            ->getQuery()\n            ->getResult()\n        ;\n    }\n    */\n\n    /*\n    public function findOneBySomeField($value): ?CountriesWars\n    {\n        return $this->createQueryBuilder('c')\n            ->andWhere('c.exampleField = :val')\n            ->setParameter('val', $value)\n            ->getQuery()\n            ->getOneOrNullResult()\n        ;\n    }\n    */\n}\n",
+			"file": "src/Repository/CountriesWarsRepository.php",
+			"file_size": 1801,
+			"file_write_time": 132045710972023883,
+			"settings":
+			{
+				"buffer_size": 1902,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vendor/symfony/console/Style/SymfonyStyle.php",
+			"settings":
+			{
+				"buffer_size": 12275,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -612,15 +657,28 @@
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/world_war_game/src/BusinessService/GuzzleClient.php",
-		"/C/xampp/htdocs/world_war_game/vendor/symfony/framework-bundle/Controller/AbstractController.php",
-		"/C/xampp/htdocs/world_war_game/src/Command/DatabaseFeederCommand.php",
-		"/C/xampp/htdocs/world_war_game/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php",
-		"/C/xampp/htdocs/world_war_game/src/Repository/NeighboursRepository.php",
-		"/C/xampp/htdocs/world_war_game/.env",
-		"/C/xampp/htdocs/world_war_game/src/Controller/Countries/GetAllController.php",
+		"/C/xampp/htdocs/world_war_game/vendor/doctrine/dbal/lib/Doctrine/DBAL/Query/QueryBuilder.php",
+		"/C/xampp/htdocs/world_war_game/src/Command/WarsBeginWarCommand.php",
+		"/C/xampp/htdocs/world_war_game/vendor/symfony/console/Input/InputInterface.php",
+		"/C/xampp/htdocs/world_war_game/src/Entity/CountriesWars.php",
 		"/C/xampp/htdocs/world_war_game/src/Repository/CountriesRepository.php",
+		"/C/xampp/htdocs/world_war_game/src/Repository/WarsRepository.php",
+		"/C/xampp/htdocs/world_war_game/src/Entity/Wars.php",
+		"/C/xampp/htdocs/world_war_game/vendor/symfony/console/Style/SymfonyStyle.php",
+		"/C/xampp/htdocs/world_war_game/src/Repository/CountriesWarsRepository.php",
+		"/C/xampp/htdocs/world_war_game/vendor/symfony/framework-bundle/Controller/AbstractController.php",
+		"/C/xampp/htdocs/world_war_game/vendor/doctrine/orm/lib/Doctrine/ORM/EntityRepository.php",
+		"/C/xampp/htdocs/world_war_game/src/Command/DatabaseFeederCommand.php",
+		"/C/xampp/htdocs/world_war_game/src/Controller/Countries/GetAllController.php",
+		"/C/xampp/htdocs/world_war_game/src/Repository/WarsBattlesRepository.php",
 		"/C/xampp/htdocs/world_war_game/src/Repository/RegionsRepository.php",
+		"/C/xampp/htdocs/world_war_game/src/Repository/NeighboursRepository.php",
+		"/C/xampp/htdocs/world_war_game/vendor/doctrine/doctrine-bundle/Repository/ServiceEntityRepository.php",
+		"/C/xampp/htdocs/world_war_game/vendor/doctrine/doctrine-bundle/Repository/ServiceEntityRepositoryInterface.php",
+		"/C/xampp/htdocs/world_war_game/src/BusinessService/PersistenceService.php",
+		"/C/xampp/htdocs/world_war_game/src/BusinessService/GuzzleClient.php",
+		"/C/xampp/htdocs/world_war_game/vendor/doctrine/orm/lib/Doctrine/ORM/AbstractQuery.php",
+		"/C/xampp/htdocs/world_war_game/.env",
 		"/C/xampp/htdocs/world_war_game/vendor/doctrine/doctrine-bundle/Command/DoctrineCommand.php",
 		"/C/xampp/htdocs/world_war_game/vendor/symfony/dependency-injection/ServiceSubscriberInterface.php",
 		"/C/xampp/htdocs/world_war_game/vendor/symfony/service-contracts/ServiceSubscriberInterface.php",
@@ -726,20 +784,7 @@
 		"/C/xampp/htdocs/vue_js/notas.txt",
 		"/C/xampp/htdocs/package-lock.json",
 		"/C/xampp/htdocs/applications.html",
-		"/C/xampp/htdocs/vue_js/04 - lista de tareas/vue.js",
-		"/C/xampp/htdocs/vue_js/04 - lista de tareas/index.html",
-		"/C/xampp/htdocs/vue_js/03 - eventos/vue.js",
-		"/C/xampp/htdocs/vue_js/03 - eventos/index.html",
-		"/C/xampp/htdocs/bad-puns-tracker-client/src/main.js",
-		"/C/xampp/htdocs/bad-puns-tracker-server/src/Repository/MovieRepository.php",
-		"/C/xampp/htdocs/bad-puns-tracker-server/src/Controller/ApiController.php",
-		"/C/xampp/htdocs/bad-puns-tracker-server/src/Controller/MovieController.php",
-		"/C/xampp/htdocs/bad-puns-tracker-server/src/Entity/Movie.php",
-		"/C/xampp/htdocs/bad-puns-tracker-server/.env",
-		"/C/xampp/htdocs/symfoticket/public/index.php",
-		"/C/xampp/htdocs/symfoticket/config/routes.yaml",
-		"/C/xampp/htdocs/symfoticket/src/Controller/LuckyController.php",
-		"/C/xampp/htdocs/symfoticket/assets/js/app.js"
+		"/C/xampp/htdocs/vue_js/04 - lista de tareas/vue.js"
 	],
 	"find":
 	{
@@ -757,6 +802,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"success",
+			"W",
+			"w",
+			"'",
+			"val",
+			"region",
+			"Guardando",
+			"io->text",
+			"geName",
+			"country",
+			"persist",
+			"Regions",
+			"neighboursRepo",
+			"regionsRepo",
+			"()",
+			"$this",
+			"GuzzleClient",
+			"BusinessService",
+			"entityManager",
+			"container",
+			"entityManager",
 			"setCoun",
 			"function set",
 			"country",
@@ -807,30 +873,31 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/Controller/Countries/GetAllController.php",
-					"semi_transient": true,
+					"file": "src/Command/WarsMakeBattleCommand.php",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3530,
+						"buffer_size": 1801,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								945,
-								945
+								1745,
+								1745
 							]
 						],
 						"settings":
 						{
-							"SL.32.region_keys":
+							"SL.107.region_keys":
 							[
+								"sublime_linter.protected_regions"
 							],
 							"bracket_highlighter.busy": false,
 							"bracket_highlighter.clone": -1,
@@ -851,26 +918,16 @@
 							},
 							"bracket_highlighter.clone_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -881,26 +938,36 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -913,24 +980,24 @@
 								{
 									"1":
 									[
-										3526,
-										3527
+										1744,
+										1745
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										440,
-										441
+										1743,
+										1744
 									]
 								},
 								"unmatched":
@@ -939,26 +1006,16 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -969,26 +1026,36 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -1003,7 +1070,432 @@
 						"translation.y": 78.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/Repository/CountriesWarsRepository.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1017,
+								1005
+							]
+						],
+						"settings":
+						{
+							"SL.108.region_keys":
+							[
+								"SL.php.Highlights.|5b2e2f0e125c94c89c919cb747ca818cee61b12af732fe4d4496a49ff6314926|region.redish markup.error.sublime_linter|32",
+								"SL.php.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"sublime_linter.protected_regions"
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1024,
+										1025
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										992,
+										993
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1024,
+										1025
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/single_quote.png",
+										"region.greenish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										992,
+										993
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "vendor/symfony/console/Style/SymfonyStyle.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12275,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2381,
+								2385
+							]
+						],
+						"settings":
+						{
+							"SL.106.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2456,
+										2457
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2368,
+										2369
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										2456,
+										2457
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										2368,
+										2369
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 335.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
