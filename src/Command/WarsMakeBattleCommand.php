@@ -69,28 +69,35 @@ class WarsMakeBattleCommand extends Command
             #   Obtiene un país de manera aleatoria
             $country_in_war = $this->countriesWarsRepository->getRandomCountryInWar($war);
 
-            #   Obtiene el país que posee ese país
+            #   Obtiene el país conquistador
+            $country = $country_in_war->getCountry();
             $country_conquerer = $country_in_war->getConquerer();
 
-            #   Obtiene todos los países conquistados por él
-            $countries_conquered = $this->countriesWarsRepository->getCountriesConqueredBy($country_conquerer);
+            #   Obtiene todos los países del conquistador
+            $all_countries_conquered = $this->countriesWarsRepository->getCountriesConqueredBy($country_conquerer);
 
-            echo sizeof($countries_conquered);
+            if (sizeof($all_countries_conquered) == 0) continue;
 
-            /**
-            $attacker_country = $country_in_war->getConquerer();
+            #   Eligue uno de los territorios conquistados de manera aleatoria
+            $random_territory = $all_countries_conquered[rand(0, sizeof($all_countries_conquered) - 1)];
 
-            $neighbours = $this->neighboursRepository->findBy(["country_1" => $attacker_country]);
+            #   Obtienes los vecinos
+            $neighbours = $this->neighboursRepository->findBy(["country_1" => $random_territory]);
             if (sizeof($neighbours) == 0) {
-                $neighbours = $this->neighboursRepository->findBy(["country_2" => $attacker_country]);
+                $neighbours = $this->neighboursRepository->findBy(["country_2" => $random_territory]);
                 $alt = true;
             } else {
                 $alt = false;
             }
 
             if (sizeof($neighbours) == 0) continue;
+
+            $io->text("El país elegido es {$country->getName()}");
+            $io->text("Está conquistado por {$country_conquerer->getName()}");
+            $io->text("Que posee los siguientes países:");
+            $io->listing();
             
-            $io->text("El país atacante es {$attacker_country->getName()}");
+            /**
 
             $method = ($alt ? "getCountry1" : "getCountry2");
             $defender_country = $neighbours[rand(0, sizeof($neighbours)-1)]->{$method}();
